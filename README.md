@@ -1,12 +1,12 @@
 # Triangle-detection-using-Hough-Transform
 
-How to run the code:
+# How to run the code:
 
   Make sure that before running the last 4 cells, that the path of the images from images folder is correct.
   For the rest of the code, it should run without any problem.
 
   
-Here is our approach:
+# Here is our approach:
   1. For each image we chose a window size of (100,100), and step size to right and down are 20,40 respectively. (except for sandwiches image we chose a window of size (310,180) and only made steps to the right.
      
   2. For each window we found the Hough transform by using the edge map of the current window. We filtered out weak peaks by using maximum filtering of a neighbourhood of size (100,100).This helped us not choosing redundant lines. Then we did non maximum supperssion to remove redundant lines that maximum filtering couldn't remove. By that we got all the lines which are candidates to be a part of sides of triangles.
