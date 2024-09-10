@@ -1,5 +1,11 @@
 # Triangle-detection-using-Hough-Transform
 
+How to run the code:
+
+  Make sure that before running the last 4 cells, that the path of the images from images folder is correct.
+  For the rest of the code, it should run without any problem.
+
+  
 Here is our approach:
   1. For each image we chose a window size of (100,100), and step size to right and down are 20,40 respectively. (except for sandwiches image we chose a window of size (310,180) and only made steps to the right.
      
