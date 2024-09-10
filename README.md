@@ -20,5 +20,5 @@ Here is our approach:
             4. Also, the same with detected trinagles.
          
                
-Over all our code is generic for every input image. But before, we need to pick the correct parameters for each image. But over all it works almost for every image.  
+Overall our code is generic for every input image. But before, we need to pick the correct parameters for each image. But over all it works almost for every image.  
 
